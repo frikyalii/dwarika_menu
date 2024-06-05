@@ -116,7 +116,7 @@ const KathaPage = () => {
                 {category.category}
               </h3>
               <ul className="menu-list">
-              {category && category.items && category.items.map((item, idx)x => (
+              {category.items && category.items.map((item, idx) => (
                   <li key={idx} className="menu-item">
                     <div className="item-info">
                       <div className="item-name">{item.name}</div>
