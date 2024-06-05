@@ -1,0 +1,84 @@
+.menu-card {
+  cursor: pointer;
+}
+
+.menu-card.active {
+  background-color: #ffffff; /* Change this to your desired color */
+  border-color: rgb(6, 85, 3); /* Change this to your desired border color */
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-info {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-weight: bold;
+  text-align: left;
+}
+
+.item-description {
+  margin: 5px 0;
+  color: #666;
+  text-align: left;
+}
+
+.item-price {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+}
+
+.row-center {
+  justify-content: center;
+}
+
+/* KathaPage.css */
+.menu-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.scrollable-menu {
+  max-height: 400px; /* Adjust this height as needed */
+  overflow-y: auto;
+  margin-bottom: 200px;
+}
+
+.food-menu {
+  background: linear-gradient(to right, #000000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+
+.drinks-menu {
+  background: linear-gradient(to right, #42e6a4, #4ad9de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: dotted;
+}
