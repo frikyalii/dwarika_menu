@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dwarika_menu/static/css/main.6a2f632c.css",
+    "main.js": "/dwarika_menu/static/js/main.92c0b02c.js",
+    "static/js/453.9d46deeb.chunk.js": "/dwarika_menu/static/js/453.9d46deeb.chunk.js",
+    "static/media/logo.svg": "/dwarika_menu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dwarika_menu/index.html",
+    "main.6a2f632c.css.map": "/dwarika_menu/static/css/main.6a2f632c.css.map",
+    "main.92c0b02c.js.map": "/dwarika_menu/static/js/main.92c0b02c.js.map",
+    "453.9d46deeb.chunk.js.map": "/dwarika_menu/static/js/453.9d46deeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a2f632c.css",
+    "static/js/main.92c0b02c.js"
+  ]
+}
