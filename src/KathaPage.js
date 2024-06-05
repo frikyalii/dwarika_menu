@@ -62,11 +62,9 @@ const KathaPage = () => {
 
   const renderMenu = () => {
     const menu = menuData[selectedMenu];
-  
     if (!menu) {
       return null; // or some default content
     }
-
     return (
       <div>
         <h2>{selectedMenu.charAt(0).toUpperCase() + selectedMenu.slice(1)} Menu</h2>
