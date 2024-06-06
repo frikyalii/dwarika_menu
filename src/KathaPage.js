@@ -16,23 +16,23 @@ const KathaPage = () => {
       { 
         category: 'South Indian',
         items: [
-          { name: 'Poha', description: 'Beef patty with cheese', price: '₹30' },
-          { name: 'Upma', description: 'Vegetarian patty with veggies', price: '₹35' },
-          { name: 'Shira', description: 'Beef patty with cheese', price: '₹40' },
-          { name: 'Misal Pav', description: 'Vegetarian patty with veggies', price: '₹70' },
-          { name: 'Idli Sambar', description: 'Beef patty with cheese', price: '₹60' },
-          { name: 'Idli Vada Sambar', description: 'Vegetarian patty with veggies', price: '₹70' },
-          { name: 'Batata Vada Sambar', description: 'Beef patty with cheese', price: '₹50' },
-          { name: 'Batata Vada Sample', description: 'Vegetarian patty with veggies', price: '₹50' },
-          { name: 'Puri Bhaji', description: 'Beef patty with cheese', price: '₹70' },
-          { name: 'Plain Dosa', description: 'Vegetarian patty with veggies', price: '₹60' },
-          { name: 'Masala Dosa', description: 'Beef patty with cheese', price: '₹8' },
-          { name: 'Cheese Plain Dosa', description: 'Vegetarian patty with veggies', price: '₹7' },
-          { name: 'Cut Cheese Masala Dosa', description: 'Beef patty with cheese', price: '₹8' },
-          { name: 'Myusore Plain Dosa', description: 'Vegetarian patty with veggies', price: '₹7' },
-          { name: 'Paper Plain Dosa', description: 'Beef patty with cheese', price: '₹8' },
-          { name: 'Paper Masala Dosa', description: 'Vegetarian patty with veggies', price: '₹7' },
-          { name: 'Dwarika Special Dosa', description: 'Vegetarian patty with veggies', price: '₹7' },
+          { name: 'Poha', description: 'A delicious breakfast dish made from flattened rice', price: '₹30' },
+          { name: 'Upma', description: 'A savory South Indian breakfast dish made from semolina', price: '₹35' },
+          { name: 'Shira', description: 'A sweet Indian dessert made from semolina and sugar', price: '₹40' },
+          { name: 'Misal Pav', description: 'A spicy curry made from sprouted moth beans and served with bread', price: '₹70' },
+          { name: 'Idli Sambar', description: 'Steamed rice cakes served with lentil soup', price: '₹60' },
+          { name: 'Idli Vada Sambar', description: 'Combination of steamed rice cakes and fried lentil doughnuts with lentil soup', price: '₹70' },
+          { name: 'Batata Vada Sambar', description: 'Fried potato dumplings served with lentil soup', price: '₹50' },
+          { name: 'Batata Vada Sample', description: 'Sample of fried potato dumplings', price: '₹50' },
+          { name: 'Puri Bhaji', description: 'Fried bread served with spiced potato curry', price: '₹70' },
+          { name: 'Plain Dosa', description: 'Thin, crispy pancake made from rice batter', price: '₹60' },
+          { name: 'Masala Dosa', description: 'Thin, crispy pancake filled with spiced potatoes', price: '₹80' },
+          { name: 'Cheese Plain Dosa', description: 'Thin, crispy pancake topped with cheese', price: '₹70' },
+          { name: 'Cut Cheese Masala Dosa', description: 'Thin, crispy pancake filled with spiced potatoes and cheese', price: '₹80' },
+          { name: 'Mysore Plain Dosa', description: 'Thin, crispy pancake with a spicy chutney spread', price: '₹70' },
+          { name: 'Paper Plain Dosa', description: 'Extra thin and crispy rice pancake', price: '₹80' },
+          { name: 'Paper Masala Dosa', description: 'Extra thin and crispy rice pancake filled with spiced potatoes', price: '₹70' },
+          { name: 'Dwarika Special Dosa', description: 'Special house dosa with a unique filling', price: '₹70' },
         ]
       },
     ],
@@ -40,20 +40,20 @@ const KathaPage = () => {
       {
         category: 'Hot Beverages',
         items: [
-          { name: 'Tea', description: 'Freshly brewed coffee', price: '₹20' },
-          { name: 'Black Tea', description: 'Fresh Tea', price: '₹15' },
+          { name: 'Tea', description: 'Freshly brewed tea', price: '₹20' },
+          { name: 'Black Tea', description: 'Fresh black tea', price: '₹15' },
           { name: 'Coffee', description: 'Freshly brewed coffee', price: '₹25' },
-          { name: 'Black Coffee', description: 'Fresh Tea', price: '₹25' },
+          { name: 'Black Coffee', description: 'Fresh black coffee', price: '₹25' },
         ]
       },
       {
-        category: 'Cold Beverages',
+        category: 'Cold Beverage',
         items: [
-          { name: 'Fresh Lime Soda', description: 'Freshly squeezed orange juice', price: '₹45' },
-          { name: 'Fresh Lime Water', description: 'Freshly made lemonade', price: '₹25' },
-          { name: 'Plain Butter Milk', description: 'Freshly squeezed orange juice', price: '₹30' },
-          { name: 'Masala Butter Milk', description: 'Freshly made lemonade', price: '₹40' },
-          { name: 'Sweet Lassi', description: 'Freshly made lemonade', price: '₹' },
+          { name: 'Fresh Lime Soda', description: 'Freshly squeezed lime soda', price: '₹45' },
+          { name: 'Fresh Lime Water', description: 'Freshly made lime water', price: '₹25' },
+          { name: 'Plain Butter Milk', description: 'Chilled buttermilk', price: '₹30' },
+          { name: 'Masala Butter Milk', description: 'Chilled buttermilk with spices', price: '₹40' },
+          { name: 'Sweet Lassi', description: 'Chilled sweet yogurt drink', price: '₹50' },
         ]
       },
     ],
@@ -78,7 +78,7 @@ const KathaPage = () => {
                 <li key={idx} className="menu-item">
                   <div className="item-info">
                     <div className="item-name">{item.name}</div>
-                    {/* <div className="item-description">{item.description}</div> */}
+                    <div className="item-description">{item.description}</div>
                   </div>
                   <div className="item-price">{item.price}</div>
                 </li>
